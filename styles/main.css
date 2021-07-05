@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-.container {
+.nav-container, .hero-container, .content-container, .article-container, .story-container, .channel-container, .newsletter-container,
+.watch-container, .work-container, .work-with-us-container, .work-items-container, .footer-container, .footer-hero-container, .footer-items-container {
   display: flex;
   align-items: center;
   justify-content: center;
