@@ -22,20 +22,54 @@
   align-items: center;
 }
 
-.work > .article, .footer > .article {
+.media, .events, .spaces, .programs, .more, .about {
   width: 50%;
 }
 
-.nav-container > .alert {
-  /*display: none;*/
+.nav-center, .nav-right, .alert {
+  display: none;
+}
+
+.nav {
+  justify-content: left;
 }
 
 /* TABLET */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-  .content .article:nth-child(3), .content .article:nth-child(4), .story > .article, .channel > .article,
-  .watch > .container, .work > .container {
+  .content-3, .content-4, .story > .article, .channel > .article,
+  .watch-left, .watch-right, .work-left, .work-right {
     width: 50%;
-  } 
+  }
 }
 
 
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+  .content-left, .content-right, .content-3, .content-4 {
+    width: 50%;
+  }
+
+  .articles > .article {
+    width: 20%;
+  }
+
+  .story > .article, .channel > .article {
+    width: 25%;
+  }
+
+  .more, .about, .footer-hero {
+    width: 33.33%;
+  }
+
+  .watch-left, .watch-right, .work-left, .work-right {
+    width: 50%;
+  }
+
+  .nav-center, .nav-right, .alert {
+    display: initial;
+  }
+
+  .nav {
+    justify-content: space-between;
+  }
+}
