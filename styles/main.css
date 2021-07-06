@@ -103,6 +103,10 @@ h3 {
   height: auto;
 }
 
+.slogan {
+  color: rgb(117, 117, 117);
+}
+
 /* TABLET */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .wrapper {
@@ -155,6 +159,19 @@ h3 {
   }
 
   .hero {
-    margin-bottom: 30px;
+    margin: 150px 0px 100px 0px;
+  }
+
+  .hero-left {
+    justify-content: left;
+    padding-left: 50px;
+  }
+
+  .hero-right {
+    justify-content: right;
+  }
+
+  .slogan {
+    font-size: 36px;
   }
 }
