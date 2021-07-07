@@ -10,6 +10,10 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   margin: 0 24px;
 }
@@ -110,10 +114,9 @@ body {
   color: white;
   width: 100%;
   height: 400px;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .content-1-wrapper, .content-2-wrapper, .content-3-wrapper, .content-4-wrapper,
@@ -129,15 +132,15 @@ body {
 }
 
 .content-1 {
-  background-image: url("../images/content-1.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../images/content-1.jpeg");
 }
 
 .content-2 {
-  background-image: url("../images/content-2.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../images/content-2.jpeg");
 }
 
 .content-3 {
-  background-image: url("../images/content-3.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../images/content-3.jpeg");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,11 +148,11 @@ body {
 }
 
 .content-4 {
-  background-image: url("../images/content-4.jpeg")
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../images/content-4.jpeg")
 }
 
 .content-5 {
-  background-image: url("../images/content-5.jpeg")
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../images/content-5.jpeg")
 }
 
 .get-tickets {
