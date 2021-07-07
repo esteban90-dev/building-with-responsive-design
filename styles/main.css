@@ -12,6 +12,7 @@ body {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .wrapper {
@@ -109,6 +110,10 @@ a {
 }
 
 /* CONTENT */
+.contents {
+  margin-bottom: 50px;
+}
+
 .content {
   padding: 20px;
   color: white;
@@ -164,6 +169,64 @@ a {
   border-radius: 30px;
   padding: 20px 20px;
 }
+
+/* ARTICLES */
+
+.articles {
+  background-color: rgb(243, 242, 242);
+}
+
+.container.articles {
+  justify-content: left;
+  padding: 100px 100px;
+}
+
+.articles-title {
+  color: gray;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.articles-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.articles-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.articles-list .article-index {
+  color: rgb(196, 76, 196);
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.article-desc {
+  font-weight: 700;
+}
+
+.article-item {
+  display: flex;
+  align-items: center;
+}
+
+
+/* UTILITIES */
+.ml-03 {
+  margin-left: 3px;
+}
+
+
+/************************************************************RESPONSIVE STYLES********************************************************************/
 
 /* TABLET */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
@@ -240,4 +303,23 @@ a {
   .slogan {
     font-size: 36px;
   }
+
+  .container.articles {
+    justify-content: center;
+  }
+
+  .articles-list {
+    flex-direction: row;
+  }
+
+  .article-item {
+    display: flex;
+    align-items: top;
+    margin-right: 30px;
+  }
+
+  .article-desc {
+    margin-top: 5px;
+  }
+
 }
