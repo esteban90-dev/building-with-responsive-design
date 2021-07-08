@@ -1,0 +1,98 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* LAYOUT */
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-2 {
+  width: 33.33%;
+}
+
+.col-3 {
+  width: 50%;
+}
+
+.col-6 {
+  width: 100%;
+}
+
+.col-2, .col-3, .col-6 {
+  border: 2px solid gray;
+  padding: 5px 5px;
+}
+
+.d-none {
+  display: none;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+/* UTILITIES */
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-75 {
+  margin-top: 75px;
+}
+
+/*----------------------------------------------RESPONSIVE STYLES----------------------------------------*/
+
+/* TABLET */
+@media screen and (min-width: 766px) and (max-width: 1023px) {
+  .container {
+    padding: 0 5%;
+  }
+
+  .col-md-3 {
+    width: 50%;
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .col-md-3 {
+    width: 50%;
+  }
+
+  .col-lg-fourth {
+    width: 25%;
+  }
+
+  .col-lg-2 {
+    width: 33.33%;
+  }
+
+  .col-lg-3 {
+    width: 50%;
+  }
+
+  .col-lg-6 {
+    width: 100%;
+  }
+
+  .d-lg-block {
+    display: block;
+  }
+}
