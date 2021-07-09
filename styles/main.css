@@ -110,6 +110,27 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../images/content-5.jpeg")
 }
 
+/* CHANNELS */
+.channel-1 {
+  background-image: url("../images/channel-1.webp");
+}
+
+.channel-2 {
+  background-image: url("../images/channel-2.jpeg");
+}
+
+.channel-3 {
+  background-image: url("../images/channel-3.jpeg");
+}
+
+.channel-4 {
+  background-image: url("../images/channel-4.jpeg");
+}
+
+.channel-5 {
+  background-image: url("../images/channel-5.webp");
+}
+
 /* UTILITIES */
 .rajdani {
   font-family: 'Rajdhani', sans-serif;
@@ -208,6 +229,14 @@ header {
   padding: 20px;
 }
 
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
 .pb-50 {
   padding-bottom: 50px;
 }
@@ -215,6 +244,11 @@ header {
 .py-25 {
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .ml-5 {
@@ -270,6 +304,14 @@ header {
   height: auto;
 }
 
+.h-100 {
+  height: 100%;
+}
+
+.h-250 {
+  height: 250px;
+}
+
 .h-400 {
   height: 400px;
 }
@@ -284,6 +326,10 @@ header {
 
 .justify-content-end {
   justify-content: end;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
 }
 
 .align-items-center {
