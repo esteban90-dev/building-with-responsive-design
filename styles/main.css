@@ -69,6 +69,11 @@ header {
   padding-top: 3px;
 }
 
+.logo-large {
+  width: 50%;
+  height: auto;
+}
+
 /* UTILITIES */
 .rajdani {
   font-family: 'Rajdhani', sans-serif;
@@ -135,6 +140,10 @@ header {
   margin-bottom: 15px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-100 {
   margin-top: 100px;
 }
@@ -158,6 +167,10 @@ header {
 
 .align-items-center {
   align-items: center;
+}
+
+.d-flex {
+  display: flex;
 }
 
 /*----------------------------------------------RESPONSIVE STYLES----------------------------------------*/
@@ -209,5 +222,17 @@ header {
 
   .d-lg-none {
     display: none;
+  }
+
+  .mt-lg-0 {
+    margin-top: 0;
+  }
+
+  .mb-lg-75 {
+    margin-bottom: 75px;
+  }
+
+  .mt-lg-200 {
+    margin-top: 200px;
   }
 }
