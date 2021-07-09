@@ -136,6 +136,10 @@ header {
   background-color: white;
 }
 
+.bg-light {
+  background-color: rgb(248, 248, 248);
+}
+
 .bg-gold {
   background-color: gold;
 }
@@ -148,8 +152,16 @@ header {
   font-size: 14px;
 }
 
+.text-xxl {
+  font-size: 3rem;
+}
+
 .text-white {
   color: white;
+}
+
+.text-purple {
+  color: purple;
 }
 
 .py-10 {
@@ -189,12 +201,41 @@ header {
   padding: 20px;
 }
 
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.py-25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.ml-5 {
+  margin-left: 3px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
 .mr-15 {
   margin-right: 15px;
 }
 
 .mb-15{
   margin-bottom: 15px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 .mt-10 {
@@ -306,6 +347,10 @@ header {
     display: none;
   }
 
+  .d-lg-flex {
+    display: flex;
+  }
+
   .mt-lg-0 {
     margin-top: 0;
   }
@@ -326,7 +371,11 @@ header {
     height: 500px;
   }
 
-  .text-lg-large {
-    font-size: 3em;
+  .text-lg-xxl {
+    font-size: 3rem;
+  }
+
+  .lg-space-around {
+    justify-content: space-around;
   }
 }
