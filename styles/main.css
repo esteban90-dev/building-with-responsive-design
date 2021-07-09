@@ -18,6 +18,7 @@ a {
 body {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
+  font-weight: 600;
 }
 
 /* LAYOUT */
@@ -44,6 +45,10 @@ body {
 
 .col-3 {
   width: 50%;
+}
+
+.col-4 {
+  width: 66.6%;
 }
 
 .col-6 {
@@ -77,8 +82,6 @@ header {
   width: 50%;
   height: auto;
 }
-
-
 
 /* CONTENT */
 .content {
@@ -150,6 +153,10 @@ header {
 
 .text-small {
   font-size: 14px;
+}
+
+.text-xl {
+  font-size: 2.5rem;
 }
 
 .text-xxl {
@@ -246,6 +253,10 @@ header {
   margin-top: 20px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 .mt-100 {
   margin-top: 100px;
 }
@@ -253,6 +264,10 @@ header {
 .mx-20 {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-400 {
@@ -292,6 +307,10 @@ header {
   width: 50%;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .text-center {
   text-align: center;
 }
@@ -306,6 +325,10 @@ header {
 
   .col-md-3 {
     width: 50%;
+  }
+
+  .col-md-6 {
+    width: 100%;
   }
 }
 
