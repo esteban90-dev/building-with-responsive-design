@@ -25,6 +25,10 @@ body {
   width: 100%;
 }
 
+.container {
+  padding: 0 5px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -74,6 +78,35 @@ header {
   height: auto;
 }
 
+
+
+/* CONTENT */
+.content {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../images/content-1.jpeg");
+}
+
+.content-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../images/content-2.jpeg");
+}
+
+.content-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../images/content-3.jpeg");
+}
+
+.content-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../images/content-4.jpeg")
+}
+
+.content-5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../images/content-5.jpeg")
+}
+
 /* UTILITIES */
 .rajdani {
   font-family: 'Rajdhani', sans-serif;
@@ -87,6 +120,18 @@ header {
   color: gray;
 }
 
+.border-solid {
+  border: solid 1px;
+}
+
+.border-white {
+  border-color: white;
+}
+
+.border-radius-30 {
+  border-radius: 30px;
+}
+
 .bg-white {
   background-color: white;
 }
@@ -95,8 +140,16 @@ header {
   background-color: gold;
 }
 
+.bg-trans {
+  background-color: transparent;
+}
+
 .text-small {
   font-size: 14px;
+}
+
+.text-white {
+  color: white;
 }
 
 .py-10 {
@@ -124,6 +177,10 @@ header {
   padding-right: 20px;
 }
 
+.p-5 {
+  padding: 5px;
+}
+
 .p-10 {
   padding: 10px;
 }
@@ -140,6 +197,10 @@ header {
   margin-bottom: 15px;
 }
 
+.mt-10 {
+  margin-top: 10px;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -151,6 +212,10 @@ header {
 .mx-20 {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.h-400 {
+  height: 400px;
 }
 
 .justify-content-start {
@@ -169,8 +234,25 @@ header {
   align-items: center;
 }
 
+.align-items-end {
+  align-items: flex-end;
+}
+
 .d-flex {
   display: flex;
+}
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /*----------------------------------------------RESPONSIVE STYLES----------------------------------------*/
@@ -234,5 +316,17 @@ header {
 
   .mt-lg-200 {
     margin-top: 200px;
+  }
+
+  .h-lg-300 {
+    height: 300px;
+  }
+
+  .h-lg-500 {
+    height: 500px;
+  }
+
+  .text-lg-large {
+    font-size: 3em;
   }
 }
