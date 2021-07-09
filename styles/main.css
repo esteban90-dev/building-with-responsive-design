@@ -5,14 +5,33 @@
   box-sizing: border-box;
 }
 
+/* GENERAL */
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+}
+
 /* LAYOUT */
-.container {
+.container, .container-fluid {
   width: 100%;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.col {
+  width: auto;
 }
 
 .col-2 {
@@ -27,36 +46,124 @@
   width: 100%;
 }
 
-.col-2, .col-3, .col-6 {
+/*.col-2, .col-3, .col-6 {
   border: 2px solid gray;
-  padding: 5px 5px;
-}
+}*/
 
 .d-none {
   display: none;
 }
 
-/* NAV */
-nav {
+/* HEADER */
+header {
   position: fixed;
-  top: 0;
   width: 100%;
-  background-color: white;
+  top: 0;
+  box-shadow: 0 0 48px #0000001a;
+}
+
+/* COMPONENTS */
+.logo-small {
+  width: 75px;
+  height: auto;
+  padding-top: 3px;
 }
 
 /* UTILITIES */
-.mb-20 {
-  margin-bottom: 20px;
+.rajdani {
+  font-family: 'Rajdhani', sans-serif;
 }
 
-.mt-75 {
-  margin-top: 75px;
+.semi-bold {
+  font-weight: 600;
+}
+
+.muted {
+  color: gray;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-gold {
+  background-color: gold;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mb-15{
+  margin-bottom: 15px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mx-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.align-items-center {
+  align-items: center;
 }
 
 /*----------------------------------------------RESPONSIVE STYLES----------------------------------------*/
 
 /* TABLET */
-@media screen and (min-width: 766px) and (max-width: 1023px) {
+@media screen and (min-width: 766px) {
   .container {
     padding: 0 5%;
   }
@@ -72,8 +179,8 @@ nav {
     padding: 0 20px;
   }
 
-  .col-md-3 {
-    width: 50%;
+  .col-lg-1 {
+    width: 16.6%;
   }
 
   .col-lg-fourth {
@@ -88,11 +195,19 @@ nav {
     width: 50%;
   }
 
+  .col-lg-4 {
+    width: 66.6%;
+  }
+
   .col-lg-6 {
     width: 100%;
   }
 
   .d-lg-block {
     display: block;
+  }
+
+  .d-lg-none {
+    display: none;
   }
 }
