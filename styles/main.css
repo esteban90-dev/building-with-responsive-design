@@ -131,6 +131,12 @@ header {
   background-image: url("../images/channel-5.webp");
 }
 
+/* NEWSLETTER */
+.newsletter {
+  background-image: url("../images/content-3.jpeg");
+  background-attachment: fixed;
+}
+
 /* UTILITIES */
 .rajdani {
   font-family: 'Rajdhani', sans-serif;
@@ -152,8 +158,20 @@ header {
   border-color: white;
 }
 
+.border-none {
+  border: none;
+}
+
+.border-radius-3 {
+  border-radius: 3px;
+}
+
 .border-radius-30 {
   border-radius: 30px;
+}
+
+.outline-none {
+  outline: none;
 }
 
 .bg-white {
@@ -176,6 +194,10 @@ header {
   font-size: 14px;
 }
 
+.text-lg {
+  font-size: 1.8rem;
+}
+
 .text-xl {
   font-size: 2.5rem;
 }
@@ -184,8 +206,16 @@ header {
   font-size: 3rem;
 }
 
+.text-no-bold {
+  font-weight: 400;
+}
+
 .text-white {
   color: white;
+}
+
+.text-turquoise {
+  color: turquoise;
 }
 
 .text-purple {
@@ -200,6 +230,11 @@ header {
 .py-20 {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .px-0 {
@@ -227,6 +262,10 @@ header {
 
 .p-20 {
   padding: 20px;
+}
+
+.p-50 {
+  padding: 50px;
 }
 
 .pb-20 {
@@ -273,6 +312,14 @@ header {
 
 .mb-15{
   margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
 }
 
 .mb-50 {
@@ -344,6 +391,10 @@ header {
   display: flex;
 }
 
+.d-ib {
+  display: inline-block;
+}
+
 .d-flex-col {
   display: flex;
   flex-direction: column;
@@ -355,6 +406,10 @@ header {
 
 .w-100 {
   width: 100%;
+}
+
+.flex-1 {
+  flex: 1;
 }
 
 .text-center {
@@ -371,6 +426,10 @@ header {
 
   .col-md-3 {
     width: 50%;
+  }
+
+  .col-md-4 {
+    width: 66.6%;
   }
 
   .col-md-6 {
