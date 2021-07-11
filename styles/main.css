@@ -206,12 +206,20 @@ header {
   background-color: gold;
 }
 
+.bg-turquoise {
+  background-color: turquoise;
+}
+
 .bg-trans {
   background-color: transparent;
 }
 
 .text-small {
   font-size: 14px;
+}
+
+.text-md {
+  font-size: 1.3rem;
 }
 
 .text-lg {
@@ -335,6 +343,10 @@ header {
   margin-right: 15px;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 .mb-15{
   margin-bottom: 15px;
 }
@@ -428,6 +440,10 @@ header {
   display: flex;
 }
 
+.d-block {
+  display: block;
+}
+
 .d-ib {
   display: inline-block;
 }
@@ -437,12 +453,20 @@ header {
   flex-direction: column;
 }
 
+.w-25 {
+  width: 25%;
+}
+
 .w-50 {
   width: 50%;
 }
 
 .w-100 {
   width: 100%;
+}
+
+.w-200 {
+  width: 200px;
 }
 
 .max-width-1280 {
@@ -493,6 +517,10 @@ header {
     width: 100%;
   }
 
+  .col-md {
+    width: auto;
+  }
+
   .w-md-50 {
     width: 50%;
   }
@@ -526,6 +554,10 @@ header {
 
   .col-lg-6 {
     width: 100%;
+  }
+
+  .col-lg {
+    width: auto;
   }
 
   .d-lg-block {
@@ -566,5 +598,9 @@ header {
 
   .lg-space-around {
     justify-content: space-around;
+  }
+
+  .w-lg-100 {
+    width: 100px;
   }
 }
