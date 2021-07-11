@@ -15,6 +15,11 @@ a {
   color: black;
 }
 
+hr {
+  border-width: .2px;
+  height: 0px;
+}
+
 body {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
@@ -200,6 +205,10 @@ header {
 
 .bg-light {
   background-color: rgb(248, 248, 248);
+}
+
+.bg-black {
+  background-color: black;
 }
 
 .bg-gold {
@@ -485,6 +494,10 @@ header {
   text-align: center;
 }
 
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
 /*----------------------------------------------RESPONSIVE STYLES----------------------------------------*/
 
 /* TABLET */
@@ -586,6 +599,10 @@ header {
 
   .mb-lg-75 {
     margin-bottom: 75px;
+  }
+
+  .mt-lg-25 {
+    margin-top: 25px;
   }
 
   .mt-lg-200 {
