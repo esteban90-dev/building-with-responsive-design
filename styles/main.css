@@ -524,6 +524,14 @@ header {
   .w-md-50 {
     width: 50%;
   }
+
+  .md-text-left {
+    text-align: left;
+  }
+
+  .md-align-items-start {
+    align-items: start;
+  }
 }
 
 /* DESKTOP */
