@@ -1,4 +1,4 @@
-#Building With Responsive Design 
+# Building With Responsive Design 
 
 This is the [Building with Responsive Design project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/html-and-css/lessons/building-with-responsive-design) from [The Odin Project's](https://www.theodinproject.com/) [HTML and CSS course](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/html-and-css/).
 
